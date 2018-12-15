@@ -1,0 +1,70 @@
+body {
+  background-color: rgba(231, 46, 0, 0.205);
+}
+
+h2 {
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 0;
+}
+
+main {
+  padding-top: 150px;
+}
+
+.textdivouter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textdivinner {
+  margin: 75px 0;
+}
+
+.problemconjugation, .problemverb {
+  background-color: lightblue;
+}
+
+.answer {
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+
+.buttondivouter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleouter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.english {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.formouter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formtype {
+  margin: 40px auto;
+}
+
+.formcustom1, .formcustom2, .formcustom3 {
+  display: inline-block;
+  width: 80px;
+}

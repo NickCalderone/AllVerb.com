@@ -1,0 +1,117 @@
+body {
+  background-color: rgba(231, 46, 0, 0.205);
+}
+
+h2 {
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 0;
+}
+
+main {
+  padding-top: 50px;
+}
+
+.textdivouter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textdivinner {
+  margin: 25px 0 10px 0;
+}
+
+.problemconjugation, .problemverb {
+  background-color: lightblue;
+}
+
+.answer {
+  background-color: lightgreen;
+  border-radius: 10px;
+  display: block;
+}
+
+.buttondivouter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleouter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.english {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.formouter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formtype {
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.formcustom1, .formcustom2, .formcustom3, .formcustom4, .formcustom5, .formcustom6  {
+  display: inline-block;
+  width: 80px;
+}
+
+.closed {
+  border-radius: 10px;
+  height: 64.8px;
+  overflow: hidden;
+  transition: height .4s;
+  background-color: lightblue;
+}
+
+.open {
+  border-radius: 10px;
+  height: 186.8px;
+  overflow: hidden;
+  transition: height .4s ease-in-out;
+  background-color: lightblue;
+}
+
+#button {
+  margin-bottom: 25px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: orange;
+}
+
+#customize {
+  margin-bottom: 10px;
+}
+
+.display {
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+}
+
+.answerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+}
