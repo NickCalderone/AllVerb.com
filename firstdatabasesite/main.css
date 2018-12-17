@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(158, 253, 229, 0.205);
+  background-color: rgba(231, 46, 0, 0.205);
 }
 
 h2 {
@@ -49,26 +49,10 @@ h1 {
 }
 
 .english {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
-}
-
-.spanish {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-}
-
-.answerdiv {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .formouter {
@@ -130,25 +114,4 @@ h1 {
 
 .title {
   text-align: center;
-}
-
-.englishtitle, .spanishtitle {
-  position: absolute;
-  display: block;
-  text-align: center;
-  top: 0;
-  left: 0;
-  margin: 0px;
-  color: rgb(116, 116, 116);
-  font-size: 16px;
-}
-
-.answertitle {
-  position: absolute;
-  display: block;
-  text-align: center;
-  top: 0;
-  margin: 0px;
-  color: rgb(116, 116, 116);
-  font-size: 16px;
 }

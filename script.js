@@ -1,549 +1,569 @@
-const list = {
+const spanish = {
     "acabar": {
         "present": {
-            "spanish": {
-                "yo": "acabo",
-                "tu": "acabas",
-                "el/ella": "acaba",
-                "nosotros": "acabamos",
-                "ellos/ellas": "acaban",
-            },
-            "english": {
-                "i": "stop",
-                "you": "stop",
-                "he/she": "stops",
-                "we": "stop",
-                "they": "stop"
-            }
+            "yo": "acabo",
+            "tu": "acabas",
+            "el/ella": "acaba",
+            "nosotros": "acabamos",
+            "ellos/ellas": "acaban",
         }
     },
     "andar": {
         "present": {
-            "spanish": {
-                "yo": "ando",
-                "tu": "andas",
-                "el/ella": "anda",
-                "nosotros": "andamos",
-                "ellos/ellas": "andan",
-            },
-            "english": {
-                "i": "walk",
-                "you": "walk",
-                "he/she": "walks",
-                "we": "walk",
-                "they": "walk"
-            }
+            "yo": "ando",
+            "tu": "andas",
+            "el/ella": "anda",
+            "nosotros": "andamos",
+            "ellos/ellas": "andan",
         }
     },
     "buscar": {
         "present": {
-            "spanish": {
-                "yo": "busco",
-                "tu": "buscas",
-                "el/ella": "busca",
-                "nosotros": "buscamos",
-                "ellos/ellas": "buscan",
-            },
-            "english": {
-                "i": "look",
-                "you": "look",
-                "he/she": "looks",
-                "we": "look",
-                "they": "look"
-            }
+            "yo": "busco",
+            "tu": "buscas",
+            "el/ella": "busca",
+            "nosotros": "buscamos",
+            "ellos/ellas": "buscan",
         }
     },
     "caer": {
         "present": {
-            "spanish": {
-                "yo": "caigo",
-                "tu": "caes",
-                "el/ella": "cae",
-                "nosotros": "caemos",
-                "ellos/ellas": "caen",
-            },
-            "english": {
-                "i": "fall",
-                "you": "fall",
-                "he/she": "falls",
-                "we": "fall",
-                "they": "fall"
-            }
+            "yo": "caigo",
+            "tu": "caes",
+            "el/ella": "cae",
+            "nosotros": "caemos",
+            "ellos/ellas": "caen",
         }
     },
     "dar": {
         "present": {
-            "spanish": {
-                "yo": "doy",
-                "tu": "das",
-                "el/ella": "da",
-                "nosotros": "damos",
-                "ellos/ellas": "dan",
-            },
-            "english": {
-                "i": "give",
-                "you": "give",
-                "he/she": "gives",
-                "we": "give",
-                "they": "give"
-            }
+            "yo": "doy",
+            "tu": "das",
+            "el/ella": "da",
+            "nosotros": "damos",
+            "ellos/ellas": "dan",
         }
     },
     "decir": {
         "present": {
-            "spanish": {
-                "yo": "digo",
-                "tu": "dices",
-                "el/ella": "dice",
-                "nosotros": "decimos",
-                "ellos/ellas": "dicen",
-            },
-            "english": {
-                "i": "say",
-                "you": "say",
-                "he/she": "says",
-                "we": "say",
-                "they": "say"
-            }
+            "yo": "digo",
+            "tu": "dices",
+            "el/ella": "dice",
+            "nosotros": "decimos",
+            "ellos/ellas": "dicen",
         }
     },
     "echar": {
         "present": {
-            "spanish": {
-                "yo": "echo",
-                "tu": "echas",
-                "el/ella": "echa",
-                "nosotros": "echamos",
-                "ellos/ellas": "echan",
-            },
-            "english": {
-                "i": "throw",
-                "you": "throw",
-                "he/she": "throws",
-                "we": "throw",
-                "they": "throw"
-            }
+            "yo": "echo",
+            "tu": "echas",
+            "el/ella": "echa",
+            "nosotros": "echamos",
+            "ellos/ellas": "echan",
         }
     },
     "estar": {
         "present": {
-            "spanish": {
                 "yo": "estoy",
                 "tu": "estas",
                 "el/ella": "esta",
                 "nosotros": "estamos",
                 "ellos/ellas": "estan",
-            },
-            "english": {
-                "i": "am",
-                "you": "are",
-                "he/she": "is",
-                "we": "are",
-                "they": "are"
-            }
         }
     },
     "hacer": {
         "present": {
-            "spanish": {
-                "yo": "hago",
-                "tu": "haces",
-                "el/ella": "hace",
-                "nosotros": "hacemos",
-                "ellos/ellas": "hacen",
-            },
-            "english": {
-                "i": "make",
-                "you": "make",
-                "he/she": "makes",
-                "we": "make",
-                "they": "make"
-            }
+            "yo": "hago",
+            "tu": "haces",
+            "el/ella": "hace",
+            "nosotros": "hacemos",
+            "ellos/ellas": "hacen",
         }
     },
     "ir": {
         "present": {
-            "spanish": {
-                "yo": "voy",
-                "tu": "vas",
-                "el/ella": "va",
-                "nosotros": "vamos",
-                "ellos/ellas": "van",
-            },
-            "english": {
-                "i": "go",
-                "you": "go",
-                "he/she": "goes",
-                "we": "go",
-                "they": "go"
-            }
+            "yo": "voy",
+            "tu": "vas",
+            "el/ella": "va",
+            "nosotros": "vamos",
+            "ellos/ellas": "van",
         }
     },
     "llegar": {
         "present": {
-            "spanish": {
-                "yo": "llego",
-                "tu": "llegas",
-                "el/ella": "llega",
-                "nosotros": "llegamos",
-                "ellos/ellas": "llegan",
-            },
-            "english": {
-                "i": "arrive",
-                "you": "arrive",
-                "he/she": "arrives",
-                "we": "arrive",
-                "they": "arrive"
-            }
+            "yo": "llego",
+            "tu": "llegas",
+            "el/ella": "llega",
+            "nosotros": "llegamos",
+            "ellos/ellas": "llegan",
         }
     },
     "llevar": {
         "present": {
-            "spanish": {
-                "yo": "llevo",
-                "tu": "llevas",
-                "el/ella": "lleva",
-                "nosotros": "llevamos",
-                "ellos/ellas": "llevan",
-            },
-            "english": {
-                "i": "wear",
-                "you": "wear",
-                "he/she": "wears",
-                "we": "wear",
-                "they": "wear"
-            }
+            "yo": "llevo",
+            "tu": "llevas",
+            "el/ella": "lleva",
+            "nosotros": "llevamos",
+            "ellos/ellas": "llevan",
         }
     },
     "meter": {
         "present": {
-            "spanish": {
-                "yo": "meto",
-                "tu": "metes",
-                "el/ella": "mete",
-                "nosotros": "metemos",
-                "ellos/ellas": "meten"
-            },
-            "english": {
-                "i": "put in",
-                "you": "put in",
-                "he/she": "puts in",
-                "we": "put in",
-                "they": "put in"
-            }
+            "yo": "meto",
+            "tu": "metes",
+            "el/ella": "mete",
+            "nosotros": "metemos",
+            "ellos/ellas": "meten"
         }
     },
     "pasar": {
         "present": {
-            "spanish": {
-                "yo": "paso",
-                "tu": "pasas",
-                "el/ella": "pasa",
-                "nosotros": "pasamos",
-                "ellos/ellas": "pasan",
-            },
-            "english": {
-                "i": "pass",
-                "you": "pass",
-                "he/she": "passes",
-                "we": "pass",
-                "they": "pass"
-            }
+            "yo": "paso",
+            "tu": "pasas",
+            "el/ella": "pasa",
+            "nosotros": "pasamos",
+            "ellos/ellas": "pasan",
         }
     },
     "pensar": {
         "present": {
-            "spanish": {
-                "yo": "pienso",
-                "tu": "piensas",
-                "el/ella": "piensa",
-                "nosotros": "pensamos",
-                "ellos/ellas": "piensan",
-            },
-            "english": {
-                "i": "think",
-                "you": "think",
-                "he/she": "thinks",
-                "we": "think",
-                "they": "think"
-            }
+            "yo": "pienso",
+            "tu": "piensas",
+            "el/ella": "piensa",
+            "nosotros": "pensamos",
+            "ellos/ellas": "piensan",
         }
     },
     "perder": {
         "present": {
-            "spanish": {
-                "yo": "pierdo",
-                "tu": "pierdes",
-                "el/ella": "pierde",
-                "nosotros": "perdemos",
-                "ellos/ellas": "pierden",
-            },
-            "english": {
-                "i": "lose",
-                "you": "lose",
-                "he/she": "loses",
-                "we": "lose",
-                "they": "lose"
-            }
+            "yo": "pierdo",
+            "tu": "pierdes",
+            "el/ella": "pierde",
+            "nosotros": "perdemos",
+            "ellos/ellas": "pierden",
         }
     },
     "poder": {
         "present": {
-            "spanish": {
-                "yo": "puedo",
-                "tu": "puedes",
-                "el/ella": "puede",
-                "nosotros": "podemos",
-                "ellos/ellas": "pueden",
-            },
-            "english": {
-                "i": "can",
-                "you": "can",
-                "he/she": "can",
-                "we": "can",
-                "they": "can"
-            }
+            "yo": "puedo",
+            "tu": "puedes",
+            "el/ella": "puede",
+            "nosotros": "podemos",
+            "ellos/ellas": "pueden",
         }
     },
     "poner": {
         "present": {
-            "spanish": {
-                "yo": "pongo",
-                "tu": "pones",
-                "el/ella": "pone",
-                "nosotros": "ponemos",
-                "ellos/ellas": "ponen",
-            },
-            "english": {
-                "i": "put",
-                "you": "put",
-                "he/she": "puts",
-                "we": "put",
-                "they": "put"
-            }
+            "yo": "pongo",
+            "tu": "pones",
+            "el/ella": "pone",
+            "nosotros": "ponemos",
+            "ellos/ellas": "ponen",
         }
     },
     "querer": {
         "present": {
-            "spanish": {
-                "yo": "quiero",
-                "tu": "quieres",
-                "el/ella": "quiere",
-                "nosotros": "queremos",
-                "ellos/ellas": "quieren",
-            },
-            "english": {
-                "i": "want",
-                "you": "want",
-                "he/she": "wants",
-                "we": "want",
-                "they": "want"
-            }
+            "yo": "quiero",
+            "tu": "quieres",
+            "el/ella": "quiere",
+            "nosotros": "queremos",
+            "ellos/ellas": "quieren",
         }
     },
     "saber": {
         "present": {
-            "spanish": {
-                "yo": "se",
-                "tu": "sabes",
-                "el/ella": "sabe",
-                "nosotros": "sabemos",
-                "ellos/ellas": "saben",
-            },
-            "english": {
-                "i": "know",
-                "you": "know",
-                "he/she": "knows",
-                "we": "know",
-                "they": "know"
-            }
+            "yo": "se",
+            "tu": "sabes",
+            "el/ella": "sabe",
+            "nosotros": "sabemos",
+            "ellos/ellas": "saben",
         }
     },
 
     "salir": {
         "present": {
-            "spanish": {
-                "yo": "salgo",
-                "tu": "sales",
-                "el/ella": "sale",
-                "nosotros": "salimos",
-                "ellos/ellas": "salen",
-            },
-            "english": {
-                "i": "go out",
-                "you": "go out",
-                "he/she": "goes out",
-                "we": "go out",
-                "they": "go out"
-            }
+            "yo": "salgo",
+            "tu": "sales",
+            "el/ella": "sale",
+            "nosotros": "salimos",
+            "ellos/ellas": "salen",
         }
     },
     "seguir": {
         "present": {
-            "spanish": {
-                "yo": "sigo",
-                "tu": "sigues",
-                "el/ella": "sigue",
-                "nosotros": "seguimos",
-                "ellos/ellas": "siguen",
-            },
-            "english": {
-                "i": "follow",
-                "you": "follow",
-                "he/she": "follows",
-                "we": "follow",
-                "they": "follow"
-            }
+            "yo": "sigo",
+            "tu": "sigues",
+            "el/ella": "sigue",
+            "nosotros": "seguimos",
+            "ellos/ellas": "siguen",
         }
     },
     "ser": {
         "present": {
-            "spanish": {
-                "yo": "soy",
-                "tu": "eres",
-                "el/ella": "es",
-                "nosotros": "somos",
-                "ellos/ellas": "son",
-            },
-            "english": {
-                "i": "am",
-                "you": "are",
-                "he/she": "is",
-                "we": "are",
-                "they": "are"
-            }
+            "yo": "soy",
+            "tu": "eres",
+            "el/ella": "es",
+            "nosotros": "somos",
+            "ellos/ellas": "son",
         }
     },
     "servir": {
         "present": {
-            "spanish": {
-                "yo": "servo",
-                "tu": "sirves",
-                "el/ella": "sirve",
-                "nosotros": "servimos",
-                "ellos/ellas": "sirven",
-            },
-            "english": {
-                "i": "serve",
-                "you": "serve",
-                "he/she": "serves",
-                "we": "serve",
-                "they": "serve"
-            }
+            "yo": "servo",
+            "tu": "sirves",
+            "el/ella": "sirve",
+            "nosotros": "servimos",
+            "ellos/ellas": "sirven",
         }
     },
     "tener": {
         "present": {
-            "spanish": {
-                "yo": "tengo",
-                "tu": "tienes",
-                "el/ella": "tiene",
-                "nosotros": "tenemos",
-                "ellos/ellas": "tienen",
-            },
-            "english": {
-                "i": "have",
-                "you": "have",
-                "he/she": "has",
-                "we": "have",
-                "they": "have"
-            }
+            "yo": "tengo",
+            "tu": "tienes",
+            "el/ella": "tiene",
+            "nosotros": "tenemos",
+            "ellos/ellas": "tienen",
         }
     },
     "tomar": {
         "present": {
-            "spanish": {
-                "yo": "tomo",
-                "tu": "tomas",
-                "el/ella": "toma",
-                "nosotros": "tomamos",
-                "ellos/ellas": "toman",
-            },
-            "english": {
-                "i": "drink",
-                "you": "drink",
-                "he/she": "drinks",
-                "we": "drink",
-                "they": "drink"
-            }
+            "yo": "tomo",
+            "tu": "tomas",
+            "el/ella": "toma",
+            "nosotros": "tomamos",
+            "ellos/ellas": "toman",
         }
     },
     "traer": {
         "present": {
-            "spanish": {
-                "yo": "traigo",
-                "tu": "traes",
-                "el/ella": "trae",
-                "nosotros": "traemos",
-                "ellos/ellas": "traen",
-            },
-            "english": {
-                "i": "bring",
-                "you": "bring",
-                "he/she": "brings",
-                "we": "bring",
-                "they": "bring"
-            }
+            "yo": "traigo",
+            "tu": "traes",
+            "el/ella": "trae",
+            "nosotros": "traemos",
+            "ellos/ellas": "traen",
         }
     },
     "venir": {
         "present": {
-            "spanish": {
-                "yo": "vengo",
-                "tu": "vienes",
-                "el/ella": "viene",
-                "nosotros": "venimos",
-                "ellos/ellas": "vienen",
-            },
-            "english": {
-                "i": "come",
-                "you": "come",
-                "he/she": "comes",
-                "we": "come",
-                "they": "come"
-            }
+            "yo": "vengo",
+            "tu": "vienes",
+            "el/ella": "viene",
+            "nosotros": "venimos",
+            "ellos/ellas": "vienen",
         }
     },
     "ver": {
         "present": {
-            "spanish": {
-                "yo": "veo",
-                "tu": "ves",
-                "el/ella": "ve",
-                "nosotros": "vemos",
-                "ellos/ellas": "ven",
-            },
-            "english": {
-                "i": "see",
-                "you": "see",
-                "he/she": "sees",
-                "we": "see",
-                "they": "see"
-            }
+            "yo": "veo",
+            "tu": "ves",
+            "el/ella": "ve",
+            "nosotros": "vemos",
+            "ellos/ellas": "ven",
         }
     },
     "volver": {
         "present": {
-            "spanish": {
-                "yo": "vuelvo",
-                "tu": "vuelves",
-                "el/ella": "vuelve",
-                "nosotros": "volvemos",
-                "ellos/ellas": "vuelven",
-            },
-            "english": {
-                "i": "return",
-                "you": "return",
-                "he/she": "returns",
-                "we": "return",
-                "they": "return"
-            }
+            "yo": "vuelvo",
+            "tu": "vuelves",
+            "el/ella": "vuelve",
+            "nosotros": "volvemos",
+            "ellos/ellas": "vuelven",
         }
     }
-}
+};
+
+const english = {
+    "to stop": {
+        "present": {
+            "i": "stop",
+            "you": "stop",
+            "he/she": "stops",
+            "we": "stop",
+            "they": "stop"
+        }
+    },
+    "to walk": {
+        "present": {
+            "i": "walk",
+            "you": "walk",
+            "he/she": "walks",
+            "we": "walk",
+            "they": "walk"
+        }
+    },
+    "to look": {
+        "present": {
+            "i": "look",
+            "you": "look",
+            "he/she": "looks",
+            "we": "look",
+            "they": "look"
+        }
+    },
+    "to fall": {
+        "present": {
+            "i": "fall",
+            "you": "fall",
+            "he/she": "falls",
+            "we": "fall",
+            "they": "fall"
+        }
+    },
+    "to give": {
+        "present": {
+            "i": "give",
+            "you": "give",
+            "he/she": "gives",
+            "we": "give",
+            "they": "give"
+        }
+    },
+    "to say": {
+        "present": {
+            "i": "say",
+            "you": "say",
+            "he/she": "says",
+            "we": "say",
+            "they": "say"
+        }
+    },
+    "to throw": {
+        "present": {
+            "i": "throw",
+            "you": "throw",
+            "he/she": "throws",
+            "we": "throw",
+            "they": "throw"
+        }
+    },
+    "to be (temporary)": {
+        "present": {
+            "i": "am",
+            "you": "are",
+            "he/she": "is",
+            "we": "are",
+            "they": "are"
+        }
+    },
+    "to make": {
+        "present": {
+            "i": "make",
+            "you": "make",
+            "he/she": "makes",
+            "we": "make",
+            "they": "make"
+        }
+    },
+    "to go": {
+        "present": {
+            "i": "go",
+            "you": "go",
+            "he/she": "goes",
+            "we": "go",
+            "they": "go"
+        }
+    },
+    "to arrive": {
+        "present": {
+            "i": "arrive",
+            "you": "arrive",
+            "he/she": "arrives",
+            "we": "arrive",
+            "they": "arrive"
+        }
+    },
+    "to wear": {
+        "present": {
+            "i": "wear",
+            "you": "wear",
+            "he/she": "wears",
+            "we": "wear",
+            "they": "wear"
+        }
+    },
+    "to put in": {
+        "present": {
+            "i": "put in",
+            "you": "put in",
+            "he/she": "puts in",
+            "we": "put in",
+            "they": "put in"
+        }
+    },
+    "to pass": {
+        "present": {
+            "i": "pass",
+            "you": "pass",
+            "he/she": "passes",
+            "we": "pass",
+            "they": "pass"
+        }
+    },
+    "to think": {
+        "present": {
+            "i": "think",
+            "you": "think",
+            "he/she": "thinks",
+            "we": "think",
+            "they": "think"
+        }
+    },
+    "to lose": {
+        "present": {
+            "i": "lose",
+            "you": "lose",
+            "he/she": "loses",
+            "we": "lose",
+            "they": "lose"
+        }
+    },
+    "to be able to": {
+        "present": {
+            "i": "can",
+            "you": "can",
+            "he/she": "can",
+            "we": "can",
+            "they": "can"
+        }
+    },
+    "to put": {
+        "present": {
+            "i": "put",
+            "you": "put",
+            "he/she": "puts",
+            "we": "put",
+            "they": "put"
+        }
+    },
+    "to want": {
+        "present": {
+            "i": "want",
+            "you": "want",
+            "he/she": "wants",
+            "we": "want",
+            "they": "want"
+        }
+    },
+    "to know": {
+        "present": {
+            "i": "know",
+            "you": "know",
+            "he/she": "knows",
+            "we": "know",
+            "they": "know"
+        }
+    },
+
+    "to go out": {
+        "present": {
+            "i": "go out",
+            "you": "go out",
+            "he/she": "goes out",
+            "we": "go out",
+            "they": "go out"
+        }
+    },
+    "to follow": {
+        "present": {
+            "i": "follow",
+            "you": "follow",
+            "he/she": "follows",
+            "we": "follow",
+            "they": "follow"
+        }
+    },
+    "to be (permanent)": {
+        "present": {
+            "i": "am",
+            "you": "are",
+            "he/she": "is",
+            "we": "are",
+            "they": "are"
+        }
+    },
+    "to serve": {
+        "present": {
+            "i": "serve",
+            "you": "serve",
+            "he/she": "serves",
+            "we": "serve",
+            "they": "serve"
+        }
+    },
+    "to have": {
+        "present": {
+            "i": "have",
+            "you": "have",
+            "he/she": "has",
+            "we": "have",
+            "they": "have"
+        }
+    },
+    "to drink": {
+        "present": {
+            "i": "drink",
+            "you": "drink",
+            "he/she": "drinks",
+            "we": "drink",
+            "they": "drink"
+        }
+    },
+    "to bring": {
+        "present": {
+            "i": "bring",
+            "you": "bring",
+            "he/she": "brings",
+            "we": "bring",
+            "they": "bring"
+        }
+    },
+    "to come": {
+        "present": {
+            "i": "come",
+            "you": "come",
+            "he/she": "comes",
+            "we": "come",
+            "they": "come"
+        }
+    },
+    "to see": {
+        "present": {
+            "i": "see",
+            "you": "see",
+            "he/she": "sees",
+            "we": "see",
+            "they": "see"
+        }
+    },
+    "to return": {
+        "present": {
+            "i": "return",
+            "you": "return",
+            "he/she": "returns",
+            "we": "return",
+            "they": "return"
+        }
+    }
+};
+
+// function verbIndex(){
+//     for(let i = 0; i < spanish.length; i++){
+        
+//         // return object;
+//         // return object.length;
+        
+//         if (Object.keys(spanish)[i] === "acabar"){
+//             console.log(i);
+//         }
+        
+//     }   
+//     console.log(Object.keys(spanish).length);
+// };
+
+
 //__________________Setup________________________________________________________________
 //quantity is number of verbs in list
-let quantity = Object.keys(list).length;
+let quantity = Object.keys(spanish).length;
 
 //choose random number within range of 0 to max
 function getRandomInt(max) {
@@ -591,8 +611,8 @@ let checkedArray = [];
 let quantityCustomized;
 
 function generate(){
-    customizedList = {};
     checkedArray = [];
+    customizedList = {};
     checkBoxes = document.getElementsByClassName("verb");
 
 
@@ -612,7 +632,7 @@ function generate(){
         console.log(checkedArray);
 
         for (let i=0; i<checkedArray.length; i++){
-            customizedList[checkedArray[i]] = list[checkedArray[i]]
+            customizedList[checkedArray[i]] = spanish[checkedArray[i]]
         }
 
         quantityCustomized = Object.keys(customizedList).length;
@@ -623,13 +643,13 @@ function generate(){
             conjugationPosition = getRandomInt(5);
             currentVerb = Object.keys(customizedList)[getRandomInt(quantityCustomized)];
             console.log(currentVerb);
-            currentSpanishConjugation = Object.keys(customizedList[currentVerb].present.spanish)[conjugationPosition];
+            currentSpanishConjugation = Object.keys(customizedList[currentVerb].present)[conjugationPosition];
             console.log(currentSpanishConjugation);
-            currentEnglishConjugation = Object.keys(customizedList[currentVerb].present.english)[conjugationPosition];
+            currentEnglishConjugation = Object.keys(customizedList[currentVerb].present)[conjugationPosition];
             console.log(currentEnglishConjugation);
-            currentSpanishAnswer = customizedList[currentVerb].present.spanish[currentSpanishConjugation];
+            currentSpanishAnswer = customizedList[currentVerb].present[currentSpanishConjugation];
             console.log(currentSpanishAnswer);
-            currentEnglishAnswer = customizedList[currentVerb].present.english[currentEnglishConjugation];
+            currentEnglishAnswer = customizedList[currentVerb].present[currentEnglishConjugation];
             console.log(currentEnglishAnswer);
             spanishverb.innerHTML = currentVerb;
             translation.innerHTML = "_______";
@@ -647,12 +667,19 @@ function generate(){
         }
     } else {
         if (buttonSwitch === 0){
+            
+            currentVerb = Object.keys(spanish)[getRandomInt(quantity)];
             conjugationPosition = getRandomInt(5);
-            currentVerb = Object.keys(list)[getRandomInt(quantity)];
-            currentSpanishConjugation = Object.keys(list[currentVerb].present.spanish)[conjugationPosition];
-            currentEnglishConjugation = Object.keys(list[currentVerb].present.english)[conjugationPosition];
-            currentSpanishAnswer = list[currentVerb].present.spanish[currentSpanishConjugation];
-            currentEnglishAnswer = list[currentVerb].present.english[currentEnglishConjugation];
+            currentSpanishConjugation = Object.keys(spanish[currentVerb].present)[conjugationPosition];
+            console.log(currentVerb);
+            verbI = Object.keys(spanish).indexOf(currentVerb);
+            engVerb = Object.keys(english)[verbI];
+            console.log(engVerb);
+            console.log(english[engVerb]);
+            console.log(conjugationPosition);
+            currentEnglishConjugation = Object.keys(english[engVerb].present)[conjugationPosition];
+            currentSpanishAnswer = spanish[currentVerb].present[currentSpanishConjugation];
+            currentEnglishAnswer = english[engVerb].present[currentEnglishConjugation];
             spanishverb.innerHTML = currentVerb;
             translation.innerHTML = "_______";
             translation2.innerHTML = "_______";
@@ -668,7 +695,7 @@ function generate(){
             buttonSwitch = 0;
         }
     }
-}
+};
 
 function resetAll(){
     translation.innerHTML = "_______";
@@ -679,7 +706,7 @@ function resetAll(){
     buttonSwitch = 0;
 
     options.className = "closed";
-}
+};
 
 function resetCustom(){
     translation.innerHTML = "_______";
@@ -690,4 +717,5 @@ function resetCustom(){
     buttonSwitch = 0;
 
     options.className = "open";
-}
+};
+
