@@ -90,7 +90,7 @@ h1 {
 
 .closed {
   border-radius: 10px;
-  height: 64.8px;
+  height: 242.5px;
   overflow: hidden;
   transition: height .4s;
   background-color: lightblue;
@@ -98,10 +98,14 @@ h1 {
 
 .open {
   border-radius: 10px;
-  height: 186.8px;
+  height: 365px;
   overflow: hidden;
   transition: height .4s ease-in-out;
   background-color: lightblue;
+}
+
+.tense {
+  margin-left: 20px;
 }
 
 #button {
